@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>cilicili~</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/icon.css" />
+		<script src="js/jquery-3.0.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jq.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+		</div>
+		<!--导航条开始-->
+		<div id="nav">
+			<ul id="sddm" class="clearfix">
+				<li>
+					<a href="index.html" class="glyphicon glyphicon-home"><span>首页</span></a>
+				</li>
+				<li>
+					<a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()" class="glyphicon glyphicon-heart"><span>治愈</span></a>
+					<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="child/clannad.html">CLANNAD</a>
+						<a href="child/xmyrz.html">夏目友人帐</a>
+						<a href="child/angles.html">Angel Beats!</a>
+						<a href="child/lyxxl.html">狼与香辛料</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()" class="glyphicon glyphicon-thumbs-up"><span>热血</span></a>
+					<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="child/djsy.html">刀剑神域</a>
+						<a href="child/EVA.html">EVA</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()" class="glyphicon glyphicon-book"><span>搞笑</span></a>
+					<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="child/lgcrdyy.html">凉宫春日的忧郁</a>
+						<a href="child/yxrs.html">NO GAME NO LIFE</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()" class="glyphicon glyphicon-qrcode"><span>科幻</span></a>
+					<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="child/djsy.html">刀剑神域</a>
+						<a href="child/myszm.html">命运石之门</a>
+						<a href="child/xzm.html">星之梦</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()" class="glyphicon glyphicon-glass"><span>奇幻</span></a>
+					<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="child/clksdysjsh.html">从零开始的异界生活</a>
+						<a href="child/xzm.html">星之梦</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-book"><span>广告</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-random"><span>鬼畜</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-th-large"><span>番剧</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-th-list"><span>国创</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-music"><span>音乐</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-cutlery"><span>生活</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-envelope"><span>消息</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-cloud"><span>云盘</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-fire"><span>娱乐</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-eye-open"><span>科技</span></a>
+				</li>
+				<li>
+					<a href="#" class="glyphicon glyphicon-user"><span>我的</span></a>
+				</li>
+			</ul>
+		</div>
+		<!--导航条结束-->
+		<div class="anime-wrapper">
+			<!--推荐模块部分开始-->
+			<div id="chief-recommend" class="chief-recommend-module clearfix">
+				<!--轮播图开始-->
+				<div id="lunbt">
+					<div class="lunbt_img">
+						<ul>
+							<li class="pic">
+								<a href="child/clannad.html">
+									<img id="obj" src="img/1.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/angles.html">
+									<img id="obj" src="img/2.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/xmyrz.html">
+									<img id="obj" src="img/3.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/yxrs.html">
+									<img id="obj" src="img/4.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/djsy.html">
+									<img id="obj" src="img/5.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/ndh.html">
+									<img id="obj" src="img/6.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/myszm.html">
+									<img id="obj" src="img/7.jpg" />
+								</a>
+							</li>
+							<li class="pic">
+								<a href="child/xzm.html">
+									<img id="obj" src="img/8.jpg" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--lub-img结束-->
+					<div class="content">
+						<div class="box" id="box">
+							<ul>
+								<li class="lg one"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+								<li class="lg"></li>
+							</ul>
+						</div>
+						<div class="btn prev"></div>
+						<div class="btn next"></div>
+					</div>
+					<!--小圆点按钮结束-->
+				</div>
+				<!--轮播图结束-->
+				<!--推荐右半部分模块开始-->
+				<div class="recommend-module clearfix">
+					<!--card1开始-->
+					<div class="card-module c1">
+						<a href="child/djsy.html" title="刀剑神域">
+							<img src="img/5.jpg" alt="刀剑神域" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">这个世界，只需要一把剑就可以去往任何地方</p>
+							</div>-->
+						</a>
+						<a href="child/djsy.html">
+						<div class="zhezhao">
+							<p>刀剑神域</p>
+						</div>
+						</a>
+					</div>
+
+					<!--card2开始-->
+					<div class="card-module c2">
+						<a href="child/clannad.html" title="CLANND">
+							<img src="img/1.jpg" alt="CLANND" class="pic" />
+							<!--<div class="card-mark">
+								<!--<p class="title">在那落樱缤纷的坡道上</p>
+							</div>-->
+
+						</a>
+						<a href="child/clannad.html">
+						<div class="zhezhao">
+							<p>CLANND</p>
+						</div>
+						</a>
+					</div>
+					<!--card3开始-->
+					<div class="card-module c3">
+						<a href="child/myszm.html" title="命运石之门">
+							<img src="img/7.jpg" alt="命运石之门" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">这一切都是命运石之门的选择！</p>
+							</div>-->
+						</a>
+						<a href="child/myszm.html">
+						<div class="zhezhao">
+							<p>命运石之门</p>
+						</div>
+						</a>
+					</div>
+					<!--card4开始-->
+					<div class="card-module c4">
+						<a href="child/ndh.html" title="我们仍未知道那天所看见的花的名字">
+							<img src="img/6.jpg" alt="我们仍未知道那天所看见的花的名字" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">已知花意，未见其花</p>
+							</div>-->
+						</a>
+						<a href="child/ndh.html">
+						<div class="zhezhao">
+							<p>我们仍未知道那天所看见的花的名字</p>
+						</div>
+						</a>
+					</div>
+					<!--card5开始-->
+					<div class="card-module c5">
+						<a href="child/angles.html" title="AngelBeats!">
+							<img src="img/2.jpg" alt="AngelBeats!" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">立于浮华之世，奏响天籁之音。</p>
+							</div>-->
+						</a>
+						<a href="child/angles.html">
+						<div class="zhezhao">
+							<p>AngelBeats!</p>
+						</div>
+						</a>
+					</div>
+					<!--card6开始-->
+					<div class="card-module c6">
+						<a href="child/xmyrz.html" title="夏目友人帐">
+							<img src="img/3.jpg" alt="夏目友人帐" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">猫...和友人帐</p>
+							</div>-->
+						</a>
+						<a href="child/xmyrz.html">
+						<div class="zhezhao">
+							<p>夏目友人帐</p>
+						</div>
+						</a>
+					</div>
+					<!--card7开始-->
+					<div class="card-module c7">
+						<a href="child/xzm.html" title="星之梦">
+							<img src="img/8.jpg" alt="星之梦" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">星之梦</p>
+							</div>-->
+						</a>
+						<a href="child/xzm.html">
+						<div class="zhezhao">
+							<p>星之梦</p>
+						</div>
+						</a>
+					</div>
+					<!--card8开始-->
+					<div class="card-module c8">
+						<a href="child/yxrs.html" title="游戏人生">
+							<img src="img/4.jpg" alt="游戏人生" class="pic" />
+							<!--<div class="card-mark">
+								<p class="title">游戏人生</p>
+							</div>-->
+						</a>
+						<a href="child/yxrs.html">
+						<div class="zhezhao">
+							<p>游戏人生</p>
+						</div>
+						</a>
+					</div>
+				</div>
+				<!--推荐右半部分模块开始-->
+			</div>
+			<!--推荐模块部分结束-->
+			<!--主要内容模块开始-->
+			<div class="chief-content-module clearfix">
+				<!--番剧列表开始-->
+				<div class="list-type-module">
+					<!--列表1日常治愈开始-->
+					<div class="container-list-row1" id="col-riju">
+						<div class="list-section-head">
+							<span class="section-head-img list-title-img1"></span>
+							<span class="section-head-text">
+							<a><span>日常治愈</span></a>
+							</span>
+							<div class="list-cut-off-line"></div>
+						</div>
+						<div class="list-section-body">
+							<ul class="list-section-body-videolist">
+								<li class="tooltip tooltipstered">
+									<a href="child/clannad.html">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-clannad.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>CLANND</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="child/angles.html">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-ab.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>AngelBeats！</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="child/EVA.html">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-eva.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>EVA</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="child/lyxxl.html">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-lyxxl.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>狼与香辛料</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="child/xmyrz.html">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-xiamu.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>夏目友人帐</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--列表1日常治愈结束-->
+					<!--列表2热血战斗开始-->
+					<div class="container-list-row1" id="col-riju">
+						<div class="list-section-head">
+							<span class="section-head-img list-title-img2"></span>
+							<span class="section-head-text">
+							<a><span>热血战斗</span></a>
+							</span>
+							<div class="list-cut-off-line"></div>
+						</div>
+						<div class="list-section-body">
+							<ul class="list-section-body-videolist">
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-fate.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>Fate/stay night</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-xjzx.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>血界战线</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-zewg.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>罪恶王冠</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-djsy.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>刀剑神域</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-attack-of-big-man.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>进击的巨人</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--列表2热血战斗结束-->
+					<!--列表3幽默搞笑开始-->
+					<div class="container-list-row1" id="col-riju">
+						<div class="list-section-head">
+							<span class="section-head-img list-title-img3"></span>
+							<span class="section-head-text">
+							<a><span>幽默搞笑</span></a>
+							</span>
+							<div class="list-cut-off-line"></div>
+						</div>
+						<div class="list-section-body">
+							<ul class="list-section-body-videolist">
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-lgcrdyy.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>凉宫春日的忧郁</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/list-1.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>化物语</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-mandaylife.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>男子高中生的日常</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-snbh.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>少女编号</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-yxrs.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>游戏人生</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--列表3幽默搞笑结束-->
+					<!--列表4烧脑科幻开始-->
+					<div class="container-list-row1" id="col-riju">
+						<div class="list-section-head">
+							<span class="section-head-img list-title-img4"></span>
+							<span class="section-head-text">
+							<a><span>烧脑科幻</span></a>
+							</span>
+							<div class="list-cut-off-line"></div>
+						</div>
+						<div class="list-section-body">
+							<ul class="list-section-body-videolist">
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-djsyjc.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>刀剑神域</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-jssj.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>加速世界</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-myszm.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>命运石之门</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-recreaters.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>Re:CREATORS</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-xzm.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>星之梦</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--列表4烧脑科幻结束-->
+					<!--列表5炫丽奇幻开始-->
+					<div class="container-list-row1" id="col-riju">
+						<div class="list-section-head">
+							<span class="section-head-img list-title-img5"></span>
+							<span class="section-head-text">
+							<a><span>炫丽奇幻</span></a>
+							</span>
+							<div class="list-cut-off-line"></div>
+						</div>
+						<div class="list-section-body">
+							<ul class="list-section-body-videolist">
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-jjdbf.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>境界的彼方</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-jydbfy.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>绝园的暴风雨</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-snzmlx.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>少女的终末旅行</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-mfsnxy.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>魔法少女小圆</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="tooltip tooltipstered">
+									<a href="#">
+										<div class="list-section-body-videolist-cover">
+											<img src="img/cover-clksdyjsh.jpg" />
+											<div class="list-section-body-videolist-title">
+												<p>从零开始的异界生活</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--列表5炫丽奇幻结束-->
+				</div>
+				<!--番剧列表结束-->
+				<div class="container-items index-btn">
+					<div class="img">
+						<img src="img/danmu.png" />
+					</div>
+					<a href="page-login.html" class="btn">登录/注册</a>
+				</div>
+				<!--排行榜-->
+				<div class="container-items clearfix">
+					<div class="container-items-title">
+						追番人气排行
+					</div>
+					<div class="items-list-text">
+						<ul>
+							<li>
+								<a href="child/clannad.html">Clannad After Story</a>
+							</li>
+							<li>
+								<a href="child/myszm.html">命运石之门</a>
+							</li>
+							<li>
+								<a href="child/EVA.html">EVA</a>
+							</li>
+							<li>
+								<a href="#">化物语</a>
+							</li>
+							<li>
+								<a href="child/ndh.html">未闻花名</a>
+							</li>
+							<li>
+								<a href="child/lgcrdyy.html">凉宫春日的忧郁</a>
+							</li>
+							<li>
+								<a href="#">Fate/zero</a>
+							</li>
+							<li>
+								<a href="child/djsy.html">刀剑神域</a>
+							</li>
+							<li>
+								<a href="#">魔法少女小圆</a>
+							</li>
+							<li>
+								<a href="child/xmyrz.html">夏目友人帐</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--排行榜结束-->
+				<!--推荐排行榜-->
+				<div class="container-items pai2 clearfix">
+					<div class="container-items-title">
+						实时推荐
+					</div>
+					<div class="items-list-text">
+						<ul>
+							<li>
+								<a href="#">紫罗兰的永恒花园</a>
+							</li>
+							<li>
+								<a href="#">命运石之门</a>
+							</li>
+							<li>
+								<a href="#">回转企鹅罐</a>
+							</li>
+							<li>
+								<a href="#">化物语</a>
+							</li>
+							<li>
+								<a href="#">未闻花名</a>
+							</li>
+							<li>
+								<a href="#">凉宫春日的忧郁</a>
+							</li>
+							<li>
+								<a href="#">Fate/zero</a>
+							</li>
+							<li>
+								<a href="#">刀剑神域</a>
+							</li>
+							<li>
+								<a href="#">魔法少女小圆</a>
+							</li>
+							<li>
+								<a href="#">夏目友人帐</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--推荐排行榜结束-->
+
+			</div>
+			<!--主要内容模块结束-->
+		</div>
+		<!--anime-footer开始-->
+		<div class="anime-footer">
+			<div class="anime-footer-main">
+				<div class="fun">
+					<div class="anime-footer clearfix">
+						<span>友情链接 :</span>
+						<a href="http://donghua.gamersky.com/" target="_blank">在线动画</a>
+						<a href="http://www.u17.com/" target="_blank">有妖气</a>
+						<a href="http://comic.qq.com/" target="_blank">腾讯动漫</a>
+						<a href="http://www.hexieshe.com/" target="_blank">和邪社</a>
+						<a href="http://www.muu.com.cn/" target="_blank">漫画网</a>
+						<a href="http://www.comicyu.com/" target="_blank">漫域网</a>
+						<a href="http://www.dmzx.com/" target="_blank">动漫在线</a>
+						<a href="http://news.missevan.cn/" target="_blank">missevan动漫新闻</a>
+						<a href="http://www.iqiyi.com/dongman/" target="_blank">爱奇艺动漫频道</a>
+						<a href="http://acg.17173.com/" target="_blank">17173动漫频道</a>
+						<a href="http://manhua.weibo.com/" target="_blank">微漫画</a>
+						<a href="http://www.gamersky.com/" target="_blank">游民星空</a>
+					</div>
+					<br />
+					<br />
+					<br />
+					<div class="anime-footer-info clearfix c2">
+
+						<a href="index.html">返回首页</a> <span>|</span>
+						<a href="#">关于本站</a> <span>|</span>
+						<a href="#">反馈通道</a> <span>|</span>
+						<a href="#">玩家投稿</a> <span>|</span>
+						<a href="#">联系我们</a> <span>|</span>
+						<a href="#">帮助</a>
+
+					</div>
+					<div class="anime-footer-info clearfix	c3">
+						<span>Copyright<span class="anime-copyright" style="color: #FFFFFF;">©</span>second groups. All Rights Reserved</span>
+					</div>
+					<div class="anime-footer-info clearfix c4">
+						<span>版权归<span style="color:whitesmoke;text-shadow: 0 0 5px rgba(0,0,0,5);">IBM-ETP java4班第二小组</span>所有</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--anime-footer结束-->
+
+	</body>
+
+</html>

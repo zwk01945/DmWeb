@@ -1,0 +1,571 @@
+/*通用样式*/
+
+ul,
+li,
+h1,
+span {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+div,
+p,
+a {
+	display: block;
+}
+
+img {
+	vertical-align: middle;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	color: #6d757a;
+	min-width: 990px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.wrap {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+/*通用样式结束*/
+
+.child-header {
+	font: 12px Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+	position: relative;
+	z-index: 10000;
+	background: #fff;
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.child-header a {
+	transition: color .2s;
+}
+
+.child-header {
+	position: relative;
+	z-index: 200;
+	height: 42px;
+	color: #222;
+}
+
+
+/*顶部导航栏背景*/
+
+/*.nav-mask {
+	background-color: rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}*/
+
+.child-header .nav-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:#afb3b6;
+	background-color: rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.nav .home {
+	padding-left: 12px;
+	margin-left: -10px;
+}
+
+.nav .home i {
+	position: absolute;
+	width: 17px;
+	height: 14px;
+	left: 10px;
+	top: 12px;
+	background-position: -919px -88px;
+}
+
+.nav .bili-icon {
+	display: inline-block;
+	background-image: url(../img/icons.png);
+}
+
+.nav .home a {
+	padding-left: 20px!important;
+}
+
+.nav ul li .t {
+	color: #fff;
+	padding: 0 11px;
+	height: 42px;
+}
+
+.nav .nav-item {
+	text-align: center;
+	line-height: 42px;
+	float: left;
+	height: 42px;
+	position: relative;
+	background-color: hsla(0, 0%, 100%, 0);
+	transition: all .3s;
+}
+
+.nav-item:hover {
+	background-color: hsla(0, 0%, 100%, .3);
+}
+
+
+/*main-container-wrapper*/
+
+.main-cotainer-wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: -42px;
+	min-height: 1200px
+}
+
+.main-cotainer-wrapper .page-top-wrap .main-inner {
+	position: relative;
+	width: 1160px;
+	margin: 0 auto;
+	z-index: 100;
+	padding: 42px 0 30px;
+	height: 390px;
+}
+
+.main-inner .inner-content {
+	min-height: 268px;
+	margin: 40px 0;
+	padding: 0;
+	position: relative;
+}
+
+.inner-content .content-l-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 225px;
+	height: 300px;
+	padding: 4px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.inner-content .content-l-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+.inner-content .content-r {
+	margin-left: 253px;
+	min-height: 308px;
+	position: relative;
+}
+
+.content-r .c-head {
+	overflow: hidden;
+	height: 26px;
+	position: relative;
+}
+
+.c-head .info-title {
+	display: inline;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin: -5px 10px -4px 0;
+	color: #fff;
+	overflow: hidden;
+}
+
+.content-r .c-count {
+	font-size: 12px;
+	color: #222;
+	padding: 30px 0;
+	line-height: 1;
+}
+
+.c-count .info-count-item {
+	display: inline-block;
+	width: 90px;
+	border-right: 1px solid #fff;
+	text-indent: 20px;
+	height: 32px;
+}
+
+.c-count .info-count-item.count-review {
+	border-right-color: transparent;
+}
+
+.c-count .count-play {
+	width: 70px;
+	text-indent: 0;
+}
+
+.c-count .info-count-item em {
+	padding-top: 8px;
+	font-weight: 700;
+}
+
+.info-count-item * {
+	color: #fff;
+	display: block;
+}
+
+.content-r .info-row {
+	position: relative;
+	color: #fff;
+	margin-top: -2px;
+}
+
+.info-row.c-update {
+	margin-bottom: 15px;
+}
+
+.c-update em span {
+	padding-right: 15px;
+	line-height: 1.3;
+}
+
+.content-r .c-cv {
+	width: 860px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.c-cv .info-row-label {
+	display: inline;
+	float: initial;
+	font-weight: 700;
+}
+
+.c-cv em {
+	display: inline;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.content-r .c-info {
+	width: 860px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.c-info .info-row-label {
+	position: absolute;
+	line-height: 20px;
+	margin-top: -3px;
+	font-weight: 700;
+	float: left;
+}
+
+.c-info .info-desc {
+	line-height: 20px;
+	vertical-align: text-top;
+	max-height: 60px;
+	display: inline-block;
+	text-indent: 40px;
+	margin-top: -3px;
+	overflow: hidden;
+}
+
+.content-r .c-btn {
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.c-btn .btn-wraper {
+	margin-right: 20px;
+	display: inline-block;
+	width: 128px;
+	height: 48px;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.btn-wraper .btn-dy {
+	height: 48px;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 8px;
+	text-align: center;
+	background-color: #f25d8e;
+	box-sizing: content-box;
+	text-shadow: none;
+}
+
+.btn-dy:hover {
+	background-color: #ff85ad;
+}
+
+.btn-dy .btn-tag {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	margin-right: 10px;
+	background: url(../img/icons.png) -660px -1237px no-repeat;
+}
+
+
+/*top背景*/
+
+.page-top-wrap .top-wrapper {
+	height: 430px;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.top-wrapper:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.top-wrapper .top-wrapper-blurbg {
+	position: absolute;
+	background-size: 100%;
+	background-position: center;
+	width: 110%;
+	height: 430px;
+	top: 50%;
+	left: 50%;
+	margin: -215px -55%;
+	z-index: 10;
+	background-repeat: no-repeat;
+	-webkit-filter: blur(40px);
+	-ms-filter: blur(40px);
+	filter: blur(40px);
+}
+
+
+/*章节列表*/
+
+.works-chapter-wr {
+	width: 1160px;
+	margin: 0 auto;
+	/*height: 400px;/*304*/
+	padding-bottom: 34px;
+	overflow: hidden;
+}
+
+.works-stack {
+	border: 1px solid #e0dedc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background: #fff url(../img/page_works_stack_bg.png) 0 bottom repeat-x;
+}
+
+.words-xone-menu {
+	height: 52px;
+	border-bottom: 1px solid #dbd9d6;
+}
+
+.words-xone-menu li.active a {
+	height: 49px;
+	border-bottom: 4px solid #ff9a6a;
+}
+
+.words-xone-menu li a {
+	height: 53px;
+	line-height: 53px;
+	font-family: "Microsoft YaHei";
+	color: #555;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 25px;
+	position: relative;
+	display: block;
+	border-right: 1px solid #dbd9d6;
+}
+
+.works-chapter-list-wr {
+	/*height: 254px;*/
+	overflow: hidden;
+}
+
+.works-chapter-list-wr,
+.works-mov-list-wr {
+	position: relative;
+	width: 1174px;
+}
+
+.works-chapter-list {
+	/*height: 250px;*/
+	overflow: hidden;
+}
+
+.works-chapter-list li p {
+	width: 1200px;
+	height: 50px;
+	padding-left: 28px;
+	background: url(../img/page_works_chapter_bg.png) 0 bottom no-repeat;
+}
+
+.works-chapter-item {
+	float: left;
+	width: 294px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.works-chapter-item a {
+	margin-right: 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+.works-chapter-item a,
+.works-chapter-item i {
+	float: left;
+}
+
+.works-chapter-list-con ol li a:hover{
+	color: #ff9a6a;
+}
+/*footer开始*/
+.anime-footer-main{
+	height: 160px; 
+}
+.anime-footer-main .fun{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.anime-footer-main-span{
+	width: 334px;
+	padding-bottom: 24px;
+	overflow: hidden;
+}
+.fun .ma{
+	margin-right: auto;
+	margin-left: auto;
+}
+.anime-footer-main-span li{
+	float: left;
+    width: 98px;
+    padding: 0 34px;
+    text-align: center;
+    color: #fff;
+}
+.anime-footer-main-span img{
+	display: inline-block;
+    width: 74px;
+    height: 74px;
+    margin-bottom: 8px;
+}
+/*底部链接信息*/
+.anime-footer{
+	position: relative;
+	padding-top: 20px;
+	background-color:#222222;
+	color: #CEC7BD;
+	font-size: 14px;
+	font-family:宋体, Arial, "Segoe UI", sans-serif ;
+}
+.anime-footer a{
+	color: white;
+	font-size: 14px;
+	font-family: 宋体, Arial, "Segoe UI", sans-serif;
+	margin: 0px 10px;
+	padding: 0px;
+	text-align: center;
+}
+.anime-footer p{
+	font-size: 12px;
+    font-family: 宋体, Arial, "Segoe UI", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+    background: transparent;
+}
+.anime-footer-main .anime-footer-info,.anime-footer-main .anime-footer-info a{
+	line-height: 22px;
+    /*text-align: center;*/
+    color: #fff;
+}
+.anime-footer a:hover{
+	color: #CCCCCC;
+}
+.ui-footer-releation{
+	padding-left: 10px;
+}
+.anime-copyright{
+	font-family: Arial;
+    font-size: 11px;
+    margin: 0 3px;
+}
+.anime-footer .fun a,.anime-footer .fun span{
+	float: left;	
+}
+.anime-footer-info.c2{
+	width: 500px;
+	margin: 0 auto;
+}
+.anime-footer-info.c3{
+	width: 320px;
+	margin: 0 auto;
+}
+.anime-footer-info.c4{
+	width: 235px;
+	margin: 0 auto;
+}
+/*footer结束*/

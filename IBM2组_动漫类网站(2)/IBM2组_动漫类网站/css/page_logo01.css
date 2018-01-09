@@ -1,0 +1,939 @@
+/*通用样式*/
+
+ul,
+li,
+h1,
+span {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none!important;
+}
+
+img,
+div,
+p,
+a {
+	display: block;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.f1 {
+	float: left;
+}
+
+.f2 {
+	float: right;
+}
+
+h1 {
+	font-size: 2.2rem;
+	font-weight: 300;
+}
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.block_login {
+	margin-top: 15px;
+	padding-top: 0px;
+	color: #afb3b6;
+	;
+}
+.big-title{
+	width: 100%;
+    /*max-width: 1920px;*/
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 3.6em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #afb3b6;
+    
+    /*background-color: #FFFFFF;*/
+}
+.main {
+	padding: 60px 0 66px 0;
+	/*border-top: 1px solid #e9e9e9;*/
+	/* border-bottom: 1px solid #e9e9e9;*/
+	font-size: 12px;
+	background-color: #ffffff;
+	background: url(../img/cold-brew-chalk-bg01.jpg) repeat scroll top left;
+	background-size: cover;
+}
+
+.main p {
+	display: block;
+}
+
+.main .big-title span.splitline {
+	display: block;
+	width: 140px;
+	margin: 50px auto 30px;
+	border-top: 1px solid #ddd;
+}
+
+.main p.intro {
+	color: #838383;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: -20px;
+}
+.main p.zc{
+	color: #838383;
+	font-size: 1.3em;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.login_container01 {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 700px;
+}
+
+.login_box01 {
+	box-sizing: border-box;
+	background: url(../img/11111111111.jpg) repeat scroll top left;
+	background-size: cover;
+	filter:alpha(opacity:30); opacity:0.8;
+	padding: 70px 12%;
+	padding-left: 160px;
+	padding-right: 160px;
+}
+
+.login_container01_form {
+	display: block;
+	margin-top: 0px;
+	margin-left: -50px;
+	
+}
+
+.item {
+	display: inline-block;
+	margin-bottom: 35px;
+	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.login_container01_form .item label {
+	display: block;
+	font-size: 1.5em;
+	text-align: left;
+	width: 100%;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+
+.login_container01_form .item input {
+	display: block;
+	line-height: 30px;
+	width: 85%;
+	margin-top: 8px;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+}
+
+.password {
+	display: inline-block;
+	margin-bottom: 60px;
+	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.login_container01_form .password label {
+	display: block;
+	font-size: 1.5em;
+	text-align: left;
+	width: 100%;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+
+.login_container01_form .password input {
+	display: block;
+	line-height: 30px;
+	width: 85%;
+	margin-top: 8px;
+	margin-left: 0px;
+}
+
+.login_container01_form .checkbox {
+	display: block;
+	margin-top: -30px;
+	margin-left: 70px;
+	margin-right: 20px;
+}
+.login_container01_form .checkbox a{
+	color: #FFFFFF;
+	position: relative;
+	left: -13px;
+	top: -23px;
+}
+.login_container01_form .checkbox a:hover{
+	color: #000000;
+}
+.login_container01_form .checkbox input {
+	display: block;
+	padding-bottom: 20px;
+	width: 18px;
+	height: 15px;
+}
+
+.login_container01_form .checkbox span {
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.login_container01_form .captcha {
+	display: inline-block;
+	margin-bottom: 35px;
+	margin-top: 20px;
+	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.login_container01_form .captcha label {
+	display: block;
+	font-size: 1.5em;
+	text-align: left;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	margin-left: 1px;
+	color: #FFFFFF;
+}
+
+.login_container01_form .captcha .captcha_contain {
+	border: 1px solid #FFFFFF;
+	margin-top: 25px;
+	height: 120px;
+	width: 263px;
+	background-color: #FFFFFF;
+}
+
+.login_container01_form .captcha .captcha_contain .top img {
+	display: block;
+	width: 130px;
+	height: 50px;
+}
+
+.login_container01_form .captcha .captcha_contain .top input {
+	display: block;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 120px;
+	height: 26px;
+}
+
+.login_container01_form .captcha .captcha_contain .top {
+	height: 53px;
+}
+
+.login_container01_form .captcha .captcha_contain .buttom {
+	height: 53px;
+}
+
+.iconsize001 {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.yanz {
+	margin: -8px 18px 0px 0px;
+	background-color: #afb3b6!important;
+	color: #0F0F0F!important;
+}
+.login001{
+	background-color: #afb3b6!important;
+	color: #000000!important;
+}
+.login001 a:hover{
+	color:#FFFFFF!important;
+}
+.action01{
+	margin: 10px auto;
+	height: 50px;
+	text-align: center;
+}
+.action01 a{
+	display: block;
+	font-size: 1.5rem;
+	position: relative;
+	left: 0.6em;
+	bottom: 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+.action01 p .sx01{
+	font-size: 1.6rem;
+	color: #FFFFFF;
+	position: relative;
+	left: -2.5em;
+	top: 1.1em;
+}
+.action01 .sx{
+	font-size: 1.5rem;
+	position: relative;
+	left: 5em;
+	bottom: 1em;
+}
+.color{
+	color: #000000!important;
+}
+.action01 a:hover{
+	color:#afb3b6;
+}
+.action01 p{
+	font-size: 1.6rem;
+	color: #FFFFFF;
+	position: relative;
+	left: -2.5em;
+	top: 1.1em;
+}
+.action02{
+	width: 45%;
+	height: 1px;
+	background-color: #000000;	
+}
+.action03{
+	width: 100%;
+	height: 20px;
+	position: relative;
+}
+.action03 .or{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -18px;
+	margin-left: -15px;
+	height: 25px;
+	width: 30px;
+	background-color: #afb3b6;
+	padding: 0 10px 0 5px;
+	font-size: 13px;
+	background: transparent;
+}
+/*footer开始*/
+.anime-footer-main{
+	height: 160px; 
+	background: url(../img/cold-brew-chalk-bg01.jpg) repeat scroll top left;
+	background-size: cover;
+}
+.anime-footer-main .fun{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+}
+.anime-footer-main-span{
+	width: 334px;
+	padding-bottom: 24px;
+	overflow: hidden;
+}
+.fun .ma{
+	margin-right: auto;
+	margin-left: auto;
+}
+.anime-footer-main-span li{
+	float: left;
+    width: 98px;
+    padding: 0 34px;
+    text-align: center;
+    color: #fff;
+}
+.anime-footer-main-span img{
+	display: inline-block;
+    width: 74px;
+    height: 74px;
+    margin-bottom: 8px;
+}
+/*底部链接信息*/
+.anime-footer{
+	position: relative;
+	padding-top: 15px;
+	/*background-color:#222222;*/
+	color: #CEC7BD;
+	font-size: 14px;
+	font-family:宋体, Arial, "Segoe UI", sans-serif ;
+	background: url(../img/cold-brew-chalk-bg01.jpg) repeat scroll top left;
+}
+.anime-footer a{
+	color: white;
+	font-size: 14px;
+	font-family: 宋体, Arial, "Segoe UI", sans-serif;
+	margin: 0px 10px;
+	padding: 0px;
+	text-align: center;
+}
+.anime-footer p{
+	font-size: 12px;
+    font-family: 宋体, Arial, "Segoe UI", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+    background: transparent;
+}
+.anime-footer-main .anime-footer-info,.anime-footer-main .anime-footer-info a{
+	line-height: 22px;
+    /*text-align: center;*/
+    color: #fff;
+}
+.anime-footer a:hover{
+	color: #CCCCCC;
+}
+.ui-footer-releation{
+	padding-left: 10px;
+}
+.anime-copyright{
+	font-family: Arial;
+    font-size: 11px;
+    margin: 0 3px;
+}
+.anime-footer .fun a,.anime-footer .fun span{
+	float: left;	
+}
+.anime-footer-info.c2{
+	width: 500px;
+	margin: 0 auto;
+}
+.anime-footer-info.c3{
+	width: 320px;
+	margin: 0 auto;
+}
+.anime-footer-info.c4{
+	width: 235px;
+	margin: 0 auto;
+}
+/*footer结束*/
+/*childcss*/
+.child-header {
+	font: 12px Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+	position: relative;	
+	z-index: 10000;
+	background:  #afb3b6;
+	background-color:transparent;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.child-header a {
+	transition: color .2s;
+}
+
+/*.child-header {
+	position: relative;
+	z-index: 200;
+	height: 42px;
+	color: #222;
+}*/
+
+
+/*顶部导航栏背景*/
+
+
+.child-header .nav-mask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color:#afb3b6;
+	background-color: rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.nav .home {
+	padding-left: 12px;
+	margin-left: -10px;
+}
+
+.nav .home i {
+	position: absolute;
+	width: 17px;
+	height: 14px;
+	left: 10px;
+	top: 12px;
+	background-position: -919px -88px;
+}
+
+.nav .bili-icon {
+	display: inline-block;
+	background-image: url(../img/icons.png);
+}
+
+.nav .home a {
+	padding-left: 20px!important;
+}
+
+.nav ul li .t {
+	color: #fff;
+	padding: 0 11px;
+	height: 42px;
+}
+
+.nav .nav-item {
+	text-align: center;
+	line-height: 42px;
+	float: left;
+	height: 42px;
+	position: relative;
+	background-color: hsla(0, 0%, 100%, 0);
+	transition: all .3s;
+}
+
+.nav-item:hover {
+	background-color: hsla(0, 0%, 100%, .3);
+}
+
+
+/*main-container-wrapper*/
+
+.main-cotainer-wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: -42px;
+	min-height: 1200px
+}
+
+.main-cotainer-wrapper .page-top-wrap .main-inner {
+	position: relative;
+	width: 1160px;
+	margin: 0 auto;
+	z-index: 100;
+	padding: 42px 0 30px;
+	height: 390px;
+}
+
+.main-inner .inner-content {
+	min-height: 268px;
+	margin: 40px 0;
+	padding: 0;
+	position: relative;
+}
+
+.inner-content .content-l-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 225px;
+	height: 300px;
+	padding: 4px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.inner-content .content-l-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+.inner-content .content-r {
+	margin-left: 253px;
+	min-height: 308px;
+	position: relative;
+}
+
+.content-r .c-head {
+	overflow: hidden;
+	height: 26px;
+	position: relative;
+}
+
+.c-head .info-title {
+	display: inline;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin: -5px 10px -4px 0;
+	color: #fff;
+	overflow: hidden;
+}
+
+.content-r .c-count {
+	font-size: 12px;
+	color: #222;
+	padding: 30px 0;
+	line-height: 1;
+}
+
+.c-count .info-count-item {
+	display: inline-block;
+	width: 90px;
+	border-right: 1px solid #fff;
+	text-indent: 20px;
+	height: 32px;
+}
+
+.c-count .info-count-item.count-review {
+	border-right-color: transparent;
+}
+
+.c-count .count-play {
+	width: 70px;
+	text-indent: 0;
+}
+
+.c-count .info-count-item em {
+	padding-top: 8px;
+	font-weight: 700;
+}
+
+.info-count-item * {
+	color: #fff;
+	display: block;
+}
+
+.content-r .info-row {
+	position: relative;
+	color: #fff;
+	margin-top: -2px;
+}
+
+.info-row.c-update {
+	margin-bottom: 15px;
+}
+
+.c-update em span {
+	padding-right: 15px;
+	line-height: 1.3;
+}
+
+.content-r .c-cv {
+	width: 860px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.c-cv .info-row-label {
+	display: inline;
+	float: initial;
+	font-weight: 700;
+}
+
+.c-cv em {
+	display: inline;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.content-r .c-info {
+	width: 860px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.c-info .info-row-label {
+	position: absolute;
+	line-height: 20px;
+	margin-top: -3px;
+	font-weight: 700;
+	float: left;
+}
+
+.c-info .info-desc {
+	line-height: 20px;
+	vertical-align: text-top;
+	max-height: 60px;
+	display: inline-block;
+	text-indent: 40px;
+	margin-top: -3px;
+	overflow: hidden;
+}
+
+.content-r .c-btn {
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.c-btn .btn-wraper {
+	margin-right: 20px;
+	display: inline-block;
+	width: 128px;
+	height: 48px;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.btn-wraper .btn-dy {
+	height: 48px;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 8px;
+	text-align: center;
+	background-color: #f25d8e;
+	box-sizing: content-box;
+	text-shadow: none;
+}
+
+.btn-dy:hover {
+	background-color: #ff85ad;
+}
+
+.btn-dy .btn-tag {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	margin-right: 10px;
+	background: url(../img/icons.png) -660px -1237px no-repeat;
+}
+
+
+/*top背景*/
+
+.page-top-wrap .top-wrapper {
+	height: 430px;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.top-wrapper:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.top-wrapper .top-wrapper-blurbg {
+	position: absolute;
+	background-size: 100%;
+	background-position: center;
+	width: 110%;
+	height: 430px;
+	top: 50%;
+	left: 50%;
+	margin: -215px -55%;
+	z-index: 10;
+	background-repeat: no-repeat;
+	-webkit-filter: blur(40px);
+	-ms-filter: blur(40px);
+	filter: blur(40px);
+}
+
+
+/*章节列表*/
+
+.works-chapter-wr {
+	width: 1160px;
+	margin: 0 auto;
+	/*height: 400px;/*304*/
+	padding-bottom: 34px;
+	overflow: hidden;
+}
+
+.works-stack {
+	border: 1px solid #e0dedc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background: #fff url(../img/page_works_stack_bg.png) 0 bottom repeat-x;
+}
+
+.words-xone-menu {
+	height: 52px;
+	border-bottom: 1px solid #dbd9d6;
+}
+
+.words-xone-menu li.active a {
+	height: 49px;
+	border-bottom: 4px solid #ff9a6a;
+}
+
+.words-xone-menu li a {
+	height: 53px;
+	line-height: 53px;
+	font-family: "Microsoft YaHei";
+	color: #555;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 25px;
+	position: relative;
+	display: block;
+	border-right: 1px solid #dbd9d6;
+}
+
+.works-chapter-list-wr {
+	/*height: 254px;*/
+	overflow: hidden;
+}
+
+.works-chapter-list-wr,
+.works-mov-list-wr {
+	position: relative;
+	width: 1174px;
+}
+
+.works-chapter-list {
+	/*height: 250px;*/
+	overflow: hidden;
+}
+
+.works-chapter-list li p {
+	width: 1200px;
+	height: 50px;
+	padding-left: 28px;
+	background: url(../img/page_works_chapter_bg.png) 0 bottom no-repeat;
+}
+
+.works-chapter-item {
+	float: left;
+	width: 294px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.works-chapter-item a {
+	margin-right: 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+.works-chapter-item a,
+.works-chapter-item i {
+	float: left;
+}
+
+.works-chapter-list-con ol li a:hover{
+	color: #ff9a6a;
+}
+/*footer开始*/
+.anime-footer-main{
+	height: 170px!important; 
+}
+.anime-footer-main .fun{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.anime-footer-main-span{
+	width: 334px;
+	padding-bottom: 24px;
+	overflow: hidden;
+}
+.fun .ma{
+	margin-right: auto;
+	margin-left: auto;
+}
+.anime-footer-main-span li{
+	float: left;
+    width: 98px;
+    padding: 0 34px;
+    text-align: center;
+    color: #fff;
+}
+.anime-footer-main-span img{
+	display: inline-block;
+    width: 74px;
+    height: 74px;
+    margin-bottom: 8px;
+}
+/*底部链接信息*/
+.anime-footer{
+	position: relative;
+	padding-top: 20px;
+	background-color:#222222;
+	color: #CEC7BD;
+	font-size: 14px;
+	font-family:宋体, Arial, "Segoe UI", sans-serif ;
+}
+.anime-footer a{
+	color: white;
+	font-size: 14px;
+	font-family: 宋体, Arial, "Segoe UI", sans-serif;
+	margin: 0px 10px;
+	padding: 0px;
+	text-align: center;
+}
+.anime-footer p{
+	font-size: 12px;
+    font-family: 宋体, Arial, "Segoe UI", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+    background: transparent;
+}
+.anime-footer-main .anime-footer-info,.anime-footer-main .anime-footer-info a{
+	line-height: 22px;
+    /*text-align: center;*/
+    color: #fff;
+}
+.anime-footer a:hover{
+	color: #CCCCCC;
+}
+.ui-footer-releation{
+	padding-left: 10px;
+}
+.anime-copyright{
+	font-family: Arial;
+    font-size: 11px;
+    margin: 0 3px;
+}
+.anime-footer .fun a,.anime-footer .fun span{
+	float: left;	
+}
+.anime-footer-info.c2{
+	width: 500px;
+	margin: 0 auto;
+}
+.anime-footer-info.c3{
+	width: 320px;
+	margin: 0 auto;
+}
+.anime-footer-info.c4{
+	width: 235px;
+	margin: 0 auto;
+}
+/*footer结束*/
+/*childcss结束*/
